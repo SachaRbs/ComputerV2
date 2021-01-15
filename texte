@@ -1,0 +1,14 @@
+assignation
+
+input :
+
+name : string || string([a-Z])
+
+value = 'R' :[0-9]
+        'R' :[0-9][*-+/%][var]
+
+        'Q': [0-9]*i + [0-9]
+
+        'M': [A, B];[C, D]  X = X Y = Y
+
+        'F' : [0-9][*-+/%][var]x
